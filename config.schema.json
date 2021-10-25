@@ -1,0 +1,27 @@
+{
+    "pluginAlias": "BathroomFan",
+    "pluginType": "accessory",
+    "singular": false,
+    "schema": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "title": "Name",
+                "type": "string",
+                "required": true
+            },
+            "rootUrl": {
+                "title": "URL for the Pi",
+                "type": "string",
+                "default": "192.168.0.251",
+                "description": "The IP of the Pi"
+            },
+            "runtTime": {
+                "title": "Run Time",
+                "type": "number",
+                "default": 60,
+                "description": "Time in minutes the fan should run"
+            }
+        }
+    }
+}
