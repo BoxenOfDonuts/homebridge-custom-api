@@ -1,7 +1,11 @@
 {
-  "name": "homebridge-fan",
+  "name": "homebridge-boxenofdonuts-fan",
   "version": "1.0.0",
-  "description": "",
+  "description": "homebridge accessory to control my bathroom fan",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/BoxenOfDonuts/homebridge-custom-api.git"
+  },
   "main": "index.js",
   "scripts": {},
   "engines": {
